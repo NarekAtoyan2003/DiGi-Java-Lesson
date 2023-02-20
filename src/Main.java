@@ -11,7 +11,7 @@ public class Main {
         String s = StudentService.bablsort(convert);
 
         for (int i = 0; i < convert.length; i++) {
-            FilService.wrait(StudentService.student(convert[i])[0] + ".txt", StudentService.student(convert[i])[1]);
+            FilService.wrait(convert[i].getName(), convert[i].toString());
         }
     }
 }

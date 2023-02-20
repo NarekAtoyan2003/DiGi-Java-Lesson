@@ -41,10 +41,4 @@ public class StudentService {
         }
         return a;
     }
-    public static String [] student (Student a) {
-        String [] s = new String[2];
-        s[0] = a.getName();
-        s[1] = a.getName() + " - " + Integer.toString(a.getAge());
-        return s;
-    }
 }
